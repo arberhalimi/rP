@@ -1,38 +1,235 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+  --color-bg-header: #002853;
+  --color-big-text: #D07FB1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-bg);
+}
+
+.Header {
+    background:-moz-linear-gradient(180deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 79%); 
+    background:-webkit-linear-gradient(180deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 79%);
+    background:-o-linear-gradient(180deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040C18', endColorstr='#FFFF00', GradientType=1 );
+    background:-ms-linear-gradient(180deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 79%);
+    background:linear-gradient(180deg, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 79%);
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-page{
+  width: 100px;
+  margin: 100px auto 200px auto;
+}
+
+.about-page h1{
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.about-page-word {
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-page-word h1{
+  color: #E9917D;
+}
+
+.about-page-word p{
+  font-size: 16px;
+}
+
+.about-page-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.about-page-images img{
+  width: 100%;
+}
+
+.about-page-description{
+  width: 400px;
+  padding: 30px; 
+  background-color: #002853;
+  border-radius: 30px;
+  position: relative;
+  bottom: 630px;
+}
+
+.about-page-description h4{
+  color: #E9917D;
+  margin-bottom: 20px;
+}
+
+.about-page-description h2{
+  color: lightgray;
+  margin-bottom: 30px;
+}
+
+.about-page-description p{
+  margin-bottom: 30px;
+}
+
+.about-page-awards {
+  position: relative;
+  bottom: 150px;
+}
+
+.about-page-awards h1{
+  color: #E9917D;
+  text-align: center;
+  font-size: 38px;
+}
+
+.about-page-awards p{
+  font-size: 16px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-page-awards .about-page-awards-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-page-awards .about-page-awards-images img{
+  width: 100%;
+  height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.about-page-team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-page-team .about-page-team-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-page-team .about-page-team-img img{
+  width: 80%;
+  height: 70%;
+  border-radius: 30px;
+}
+
+.about-page-team .about-page-team-text{
+  padding: 30px;
+  background-color: #002853;
+  width: 90%;
+  height: 70%;
+  border-radius: 30px;
+}
+
+.about-page-team .about-page-team-text h4{
+  color: #E9917D;
+  margin-bottom: 20px;
+}
+
+.about-page-team .about-page-team-text h2{
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+.servicesMain {
+  background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/02/consultant-04.jpg"); 
+  height: 60vh;
+  margin-bottom: 200px;
+}
+
+.servicesMain h1{
+  font-size: 70px;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 15vh;
+}
+
+.servicesMain p{
+  font-size: 20px;
+  text-align: center;
+  color: 	 #000033;
+}
+
+.lighterCard{
+  background-color: #002853;
+  width: 70%;
+  filter: blur(1px);
+  margin: 0 auto;
+  border-radius: 22px;
+  box-shadow: 5px 5px 5px 0px rgba(0,62,128,0.75);
+}
+
+
+.darkerCard{
+  background-color: #002853;
+  width: 85%;
+  filter: blur(.7px);
+  margin: 0 auto;
+  border-radius: 22px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mainCard{
+  background-color: #002853;
+  border-radius: 22px;
+}
+
+.servicesPricing{
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.servicePricing-Content {
+  width: 40%;
+}
+
+.servicePricing-Content h1{
   color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.pricingPackage{
+  width: 30%;
+  border: 1px solid #81AFDD;
+  padding: 30px;
+  text-align: center;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pricingPackage span{
+  color: #FF8A71;
+  font-size: 35px;
+}
+
+.pricingPackage p {
+  color: lightgray;
 }
