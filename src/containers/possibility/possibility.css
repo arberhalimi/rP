@@ -1,0 +1,31 @@
+.possibility{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin-top: 200px;
+}
+
+.possibility .possibility-image img{
+    width: 100%;
+}
+
+.possibility .possibility-text{
+    margin-top: 200px;
+}
+
+.possibility .possibility-text a{
+    text-decoration: none;
+    color: #71E5FF;
+}
+
+.possibility .possibility-text h1{
+    color: #E9917D;
+    padding-right: 100px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.possibility .possibility-text p{
+    font-size: 16px;
+    margin-top: 30px;
+}

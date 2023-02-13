@@ -1,0 +1,37 @@
+.header-text{
+    width: 60%;
+    color: #E9917D;
+    font-size: 22px;
+    margin: 50px auto;
+
+}
+
+.header-form {
+    display: flex;
+    justify-content: center;
+}
+
+.header-form .header-form-text{
+    color: #81AFDD;
+    width: 50%;
+}
+
+.header-form .header-form-text p{
+    font-size: 12px;
+    width: 400px;
+}
+
+.header-form .header-form-input input{
+    background-color: #002853;
+    border: none;
+    padding: 10px 50px 10px 10px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.header-form .header-form-input button{
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 10px 10px 0;
+    margin-top: 10px;
+}
