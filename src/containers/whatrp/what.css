@@ -1,0 +1,77 @@
+.about-rp{
+    margin-top: 100px;
+    background-color: #002853;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.about-us{
+    display: flex;
+    color: white;
+}
+
+.about-us .about-us-title span{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.about-us .about-us-title {
+    width: 100%;
+}
+
+
+.about-us .about-us-text p{
+    color: #81AFDD;
+    font-size: 12px;
+    padding-right: 50px;
+}
+/* 
+color: #E9917D; */
+
+.about-us-explore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+} 
+
+.about-us-explore h1{
+    color: #E9917D;
+    width: 400px;
+}
+
+.about-us-explore button {
+    padding: 7px;
+    border-radius: 5px;
+    color: #E9917D;
+    margin-right: 100px;
+    background-color: transparent;
+    border: none;
+}
+
+.about-us-areas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+}
+
+.about-us-areas .about-rp-card{
+    padding: 20px;
+}
+
+.about-us-areas .about-rp-card h2{
+    color: white;
+}
+
+.about-us-areas .about-rp-card p{
+    color: #81AFDD;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.about-us-areas .about-rp-card .span{
+    width: 30px;
+    border-bottom: 3px solid #E9917D;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,47 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.features-title h1{
+    font-size: 30px;
+    color: #E9917D;
+    margin-bottom: 30px;
+} 
+
+
+.features-title a{
+    color: #71E5FF;
+    padding-bottom: 2px;
+}
+
+.features-content .features-card {  
+    display: grid; 
+    grid-template-columns: 1fr 2fr; 
+    gap: 10px;
+}
+
+.features-content .features-card .features-card-text{
+    color: white;
+}
+
+.features-content .features-card .features-card-text .span{
+    width: 30px;
+    border-bottom: 3px solid #E9917D;
+    margin-bottom: 10px;
+    position: relative;
+    top: 9px;
+}
+
+.features-content .features-card .features-card-text h1{
+    font-size: 14px;
+}
+
+p{
+    color: #81AFDD;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
