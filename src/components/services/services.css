@@ -1,0 +1,22 @@
+.serviceCard{
+    padding: 20px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.serviceCard h3{
+    font-size: 16px;
+    color: white;
+}
+
+
+.PricingPackage h3{
+    font-size: 25px;
+    color: lightgray;
+    margin-bottom: 30px;
+}
+
+
+
